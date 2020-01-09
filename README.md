@@ -6,7 +6,7 @@
 ![Alt text](https://media.giphy.com/media/ZecW1EOmmrEvH6yBSn/giphy.gif "Optional Title")
 
 ### Take a look at a Example which predicts various images in a Single big image
-![Alt text](https://media.giphy.com/media/kd39hf0OXnuheurdwW/giphy-downsized-large.gif "Optional Title")
+![Alt text](https://media.giphy.com/media/U85BkLJAb5hFZsLZAr/giphy.gif "Optional Title")
 
 You can see in Frame by Frame file we can implement a function which tells if video is safe for kids or not and We can take actions accordingly.
 
