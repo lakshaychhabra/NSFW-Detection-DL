@@ -40,7 +40,12 @@ while True:
         (H, W) = frame.shape[:2]
 
     # frame=imutils.resize(frame, width=min(100, frame.shape[1])) 
+    fc = cv2.CascadeClassifier("drive/My Drive/nsfw/haarcascade_upperbody.xml")
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)    
+    upper=fc.detectMultiScale(gray,1.1,1)
 
+    for (a,b,c,d) in upper:
+      cv2.rectangle(frame,(a,b),(a+c,b+d),(0,0,255),2)
     output = frame.copy()
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     frame = frame/255.0
